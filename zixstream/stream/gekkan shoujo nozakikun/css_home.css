@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+    /*
+    @font-face {
+    font-family:myFont;
+    src:url('myFontFile.eot');
+    src:url('myFontFile.eot?iefix') format('embedded-opentype'),
+        url('myFontFile.woff') format("woff"),
+        url('myFontFile.ttf') format("truetype"),
+        url('myFontFile.svg#family:myFont') format("svg");
+    } 
+	*/
+    
+	/* Design Web */
+   
+    body{
+	background-color:#CCC;
+	font-family: Browallia New;
+	font-size: 20px;
+	color: #44619d;
+	}
+	#MenuTopOne{
+	background-color: #000;	
+	position: fixed;
+	top: 0px;
+	left:0px;
+	right: 0px;
+	}
+	#SEP{
+		border-bottom: 3px solid #e1e1e1;
+		color : #FFF;
+		
+		}
+	
+	a{
+	font-family: Browallia New;
+	font-size: 24px;
+	color: #44619d;
+    text-decoration:none;
+     }
+	a:hover{
+    text-decoration:none;
+	transition-property: width;       
+    transition-duration: 1s;           
+    transition-timing-function: ease;  
+    transition-delay: 0s;   
+	
+	}
+	 #Text:hover{
+		 top: 0px;
+	
+	border-bottom: 4.3px solid #e1e1e1;
+	text-decoration:none;
+	transition-property: width;       
+    transition-duration: 1s;           
+    transition-timing-function: ease;  
+    transition-delay: 0s; 
+	}
+	 #Main{
+		 background-color: #d1d1d1;
+	}
+	p{
+		margin-left:70px;
+		margin-right:70px;
+		margin-bottom:10px;
+	}
+	h2{
+		margin-left:50px;
+		margin-bottom: 18px;
+		margin-top: 15px;
+	}
+	
+
+
+	 /* Menu2 END */
+	 nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+
+
+nav ul li {
+	 float:left;
+    padding:0px 9px 0px 9px;
+}
+nav ul {
+	background: #000; 
+	list-style: none;
+	position: relative;
+	display: block;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+
+
+	nav ul li:hover {
+    font-family: Browallia New;
+    font-size: 25px;
+    color: #e1e1e1;
+    text-decoration:none;
+	}
+		nav ul li:hover a {
+			color: #FFF;
+		}
+		#aformenu :hover{
+			top: 0px;
+			border-bottom: solid #FFF 3px;
+			
+			text-shadow: 1px 0px 10px #FFF;
+-webkit-transition: 0.2s linear 0s;
+-moz-transition: 0.2s linear 0s;
+-o-transition: 0.2s linear 0s;
+transition: 0.2s linear 0s;
+outline: 0 none;
+		}
+	
+	nav ul li a {
+		font-size: 25px;
+		display: block;
+		padding-left: 10px;
+		padding-bottom: 0px;
+		color: #FFF;
+		/*color: #757575;*/
+		text-decoration: none;
+	}
+	
+	
+	
+	nav ul ul {
+	background: #000; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		
+		 height:auto;
+		 width:370px;
+		
+		float: none; 
+		position: relative;
+	}
+		nav ul ul li a {
+			font-size: 21px;
+			padding: 5px 20px;
+			color: #757575;
+		}	
+			nav ul ul li a:hover {
+				border-right: 10px solid #FFF;
+				color: #FFF;
+				background: #000;
+			}
+			nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+			

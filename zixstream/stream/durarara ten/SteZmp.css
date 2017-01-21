@@ -1,0 +1,75 @@
+	::-webkit-scrollbar {  
+    width: 0px;  
+	height: 0px;
+}  
+::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+} 
+	
+
+	
+	
+		
+		#Tempp{
+			position:fixed;
+			top: 0px;
+	left:0px;
+	right: 0px;
+
+	
+			
+			}
+			
+			
+			#Tempp2{
+				position:fixed;
+			top: 0px;
+	left:0px;
+	right: 0px;
+	background-color: #999;
+				 background-image: url('BG.png');
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+
+				}
+				
+				#Tempp3{
+					height: 12%;
+					opacity:0.9;
+            filter:alpha(opacity=96);
+					background-color: #000;	
+					position:fixed;
+					bottom: 0px;
+	left:0px;
+	right: 0px;
+					}
+					#Tempp0{
+						height: 13%;
+					opacity:0.9;
+           filter:alpha(opacity=99);
+						background-color: #000;	
+					position:fixed;
+					top: 0px;
+	left:0px;
+	right: 0px;
+					}
+					#Tempp01{
+						background-color: #000;	
+					}
+						#Tempp02{
+							background-color: #CCC;
+					}
